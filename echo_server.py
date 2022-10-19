@@ -23,7 +23,8 @@ if __name__ == "__main__":
             while True:
                 data = conn.recv(SOCK_BUFFER)
                 if data:
-                    print(f"Recibido: {data.decode('utf-8')}")
+                    # print(f"Recibido: {data.decode('utf-8')}")
+                    print(f"Recibido: {data}")
                     conn.sendall(data)
                 else:
                     print("No hay mas datos")
