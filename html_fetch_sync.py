@@ -22,4 +22,4 @@ if __name__ == "__main__":
     main()
     fin = time.perf_counter()
 
-    print(f"Tiempo de ejecución: {fin - inicio} segundos")
+    print(f"Tiempo de ejecución: {fin - inicio:.2f} segundos")
