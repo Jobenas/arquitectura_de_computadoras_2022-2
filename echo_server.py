@@ -12,7 +12,7 @@ if __name__ == "__main__":
     sock.bind(server_address)
 
     # iniciamos la escucha de conexiones
-    sock.listen(5)
+    sock.listen(1)
 
     while True:
         print("Esperando conexiones...")

@@ -8,7 +8,7 @@ SLEEP_TIME = 2 # medido en segundos
 
 if __name__ == '__main__':
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_address = ('192.168.1.5', 5000)
+    server_address = ('localhost', 5000)
 
     print(f"Conectando a {server_address[0]}:{server_address[1]}")
 
