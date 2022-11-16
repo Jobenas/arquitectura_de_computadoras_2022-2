@@ -12,6 +12,7 @@ def cuenta(n):
 if __name__ == "__main__":
     t1 = Thread(target=cuenta, args=(CUENTA // 2,))
     t2 = Thread(target=cuenta, args=(CUENTA // 2,))
+    
     inicio = time.perf_counter()
     t1.start()
     t2.start()
